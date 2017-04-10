@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor/globals';
 
-export class Angular2peerPage {
+export class videochatPage {
   navigateTo() {
     return browser.get('/');
   }

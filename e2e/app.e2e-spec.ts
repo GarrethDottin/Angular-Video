@@ -1,10 +1,10 @@
-import { Angular2peerPage } from './app.po';
+import { videochatPage } from './app.po';
 
-describe('angular2peer App', function() {
-  let page: Angular2peerPage;
+describe('videochat App', function() {
+  let page: videochatPage;
 
   beforeEach(() => {
-    page = new Angular2peerPage();
+    page = new videochatPage();
   });
 
   it('should display message saying app works', () => {
